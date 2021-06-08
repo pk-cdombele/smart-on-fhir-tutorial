@@ -6,10 +6,10 @@
     <title>pk-cdombele Example-SMART-App</title>
 
     <link rel='stylesheet' type='text/css' href='./src/css/example-smart-app.css'>
-    <!--
-      Temporarily disable cerner-smart-embeddable-lib
+    
+<!--       Temporarily disable cerner-smart-embeddable-lib -->
       <link rel='stylesheet' type='text/css' href='./lib/css/cerner-smart-embeddable-lib-1.0.0.min.css'>
-    -->
+   
   </head>
   <body>
     <div id='errors'>
@@ -97,5 +97,8 @@
         }
       );
     </script>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js'></script>
+    <script src='./lib/js/cerner-smart-embeddable-lib-[version].min.js'></script>
   </body>
 </html>
